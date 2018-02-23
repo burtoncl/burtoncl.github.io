@@ -1,0 +1,56 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 102.75rem;
+    padding-top: 4.5rem;
+    background: lightgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(
+      left top,
+      papayawhip,
+      palevioletred
+    ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(
+      bottom right,
+      papayawhip,
+      palevioletred
+    ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(
+      bottom right,
+      papayawhip,
+      palevioletred
+    ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(
+      to bottom right,
+      papayawhip,
+      palevioletred
+    ); /* Standard syntax (must be last) */
+  }
+  .card {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .navbar-brand {
+    font-family: Coustard;
+  }
+  .row {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #social {
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+  }
+  .btn-social-icon {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #contact-info {
+    padding-top: 2rem;
+  }
+  form {
+    margin-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
